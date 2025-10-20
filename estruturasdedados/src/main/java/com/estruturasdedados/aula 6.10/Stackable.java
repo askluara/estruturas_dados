@@ -1,7 +1,7 @@
 public interface Stackable<T> {
+    T peek();
     void push(T data);
     T pop();
-    T peek();
     void update(T newData);
     boolean isFull();
     boolean isEmpty();

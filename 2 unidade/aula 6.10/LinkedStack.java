@@ -54,6 +54,7 @@ public class LinkedStack<T> implements Stackable<T> {
         if (topPointer != null) {
             topPointer.setNext(newNode);
         }
+        
 
         topPointer = newNode;
         numberElements++;
